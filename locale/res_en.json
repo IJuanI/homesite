@@ -1,0 +1,190 @@
+{
+  "basic_info": {
+    "description_header": "Hello there! 👋",
+    "description": "I'm a developer specialized in microservices and standalone servers. Most of my skills are the result of being responsible for designing and maintaining systems since the very begining of my formal career.\nI'm looking for fresh challenges to keep growing both personal and professionally, and I dream of being in the vanguard of innovation.",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "ICARA",
+      "startDate": "2020",
+      "images": [],
+      "source": "https://github.com/IJuanI/icara"
+    },
+    {
+      "title": "Truss Simulation",
+      "images": []
+    },
+    {
+      "title": "3D Graph",
+      "images": []
+    },
+    {
+      "title": "Simple Chat",
+      "images": []
+    },
+    {
+      "title": "Cryption",
+      "images": []
+    },
+    {
+      "title": "Dynamic Console",
+      "images": []
+    },
+    {
+      "title": "Math Hope",
+      "images": []
+    },
+    {
+      "title": "Round Cube",
+      "images": []
+    },
+    {
+      "title": "Avisos",
+      "images": []
+    },
+    {
+      "title": "EduForms",
+      "images": []
+    },
+    {
+      "title": "GitRush",
+      "images": []
+    },
+    {
+      "title": "Infinite Dash",
+      "images": []
+    },
+    {
+      "title": "Pong",
+      "images": []
+    },
+    {
+      "title": "No Signal",
+      "images": []
+    },
+    {
+      "title": "El Ferné",
+      "images": []
+    },
+    {
+      "title": "Reality Wars",
+      "images": []
+    },
+    {
+      "title": "Space Shooter",
+      "images": []
+    },
+    {
+      "title": "Healing History",
+      "images": []
+    },
+    {
+      "title": "Mahou shoujo minina san",
+      "images": []
+    },
+    {
+      "title": "Omega Network",
+      "images": []
+    },
+    {
+      "title": "Abduction",
+      "images": []
+    },
+    {
+      "title": "ManVsMachine",
+      "images": []
+    },
+    {
+      "title": "ManVsMachine 2",
+      "images": []
+    },
+    {
+      "title": "RubiKraft",
+      "images": [],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-angularjs-plain",
+          "name": "Angular"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        },
+        {
+          "class": "devicon-csharp-plain",
+          "name": "C#"
+        }
+      ]
+    },
+    {
+      "title": "Academic",
+      "type": "folder",
+      "code": "academic",
+      "brief": "Experiments for having fun.\nMost are not intended for practical applications.",
+      "description": "I've studied engineering for 4 years and have a heavy mathematics background.\nThis led to me experimenting with stuff from a variety of areas of knowledge.",
+      "images": [
+        "images/portfolio/animal-shelter/p1.jpg",
+        "images/portfolio/animal-shelter/p2.jpg"
+      ]
+    },
+    {
+      "title": "Web Development",
+      "type": "folder",
+      "code": "web",
+      "brief": "It's not a secret that devs make webpages when bored.",
+      "description": "",
+      "images": [
+        "images/portfolio/photography/p1.jpg",
+        "images/portfolio/photography/p2.jpg"
+      ]
+    },
+    {
+      "title": "Games",
+      "type": "folder",
+      "code": "games",
+      "brief": "Some games I've made. Lots of prototypes",
+      "description": "Game Development is my passion, but I'm still a rookie on the field.\nEventhough I'm a lot more experienced in web, this is my main area of interest.",
+      "images": [
+        "images/portfolio/adventure/p1.jpg",
+        "images/portfolio/adventure/p2.jpg"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Pager",
+      "title": "Senior Backend Developer",
+      "years": "11.2021 - present",
+      "mainTech": [],
+      "technologies": []
+    },
+    {
+      "company": "DIPT - UNL",
+      "title": "Fullstack Java Developer",
+      "years": "06.2019 - 04.2022",
+      "mainTech": [],
+      "technologies": []
+    },
+    {
+      "company": "Gamecomm",
+      "title": "Cloud Architect",
+      "years": "03.2021 - 09.2021",
+      "mainTech": [],
+      "technologies": []
+    },
+    {
+      "company": "Desoft",
+      "title": "Fullstack Developer",
+      "years": "02.2019 - 06.2019",
+      "mainTech": [],
+      "technologies": []
+    }
+  ]
+}
