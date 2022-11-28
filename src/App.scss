@@ -2,6 +2,10 @@
 @import '../src/scss/themes/theme-light.scss';
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
 
+$main-color: #9EC5E5;
+$main-color-accent: #4C8EEC;
+$main-color-hover: #7399BF;
+
 html {
 	font-size: 62.5%;
 	-webkit-font-smoothing: antialiased;
@@ -38,7 +42,7 @@ header {
 	-webkit-background-size: cover;
 	text-align: center;
 	overflow: hidden;
-	background-color: #e9d5a1;
+	background-color: #{$main-color};
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -74,7 +78,7 @@ header {
 
 .language {
 	font-size: 25px;
-	background-color: #e9d5a1;
+	background-color: #{$main-color};
 	padding-bottom: 10px;
 	padding-top: 80px;
 }
@@ -90,11 +94,11 @@ header h1 {
 }
 
 .slider-image {
-	border: 5px solid #D7CAAA;
+	border: 5px solid #7399BF;
 }
 
 .slider-tab {
-	background-color: #D7CAAA;
+	background-color: #7399BF;
 	height: 25px;
 }
 
@@ -206,7 +210,7 @@ header h1 {
 
 #preview {
 	width: 500px;
-	background-color: #ebeaf5;
+	background-color: #{$main-color};
 	padding: 15px;
 	position: relative;
 	margin-bottom: 15%;
@@ -219,7 +223,7 @@ header h1 {
 }
 
 #resume {
-	background: #efe1bd;
+	background: #{$main-color};
 }
 
 .experience-icon {
@@ -341,7 +345,7 @@ header h1 {
 }
 
 #portfolio {
-	background: #efe1bd;
+	background: #{$main-color};
 	padding-bottom: 5%;
 }
 

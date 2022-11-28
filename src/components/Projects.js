@@ -30,7 +30,7 @@ class Projects extends Component {
                 <div>
                   <img
                     src={projects.images[0]}
-                    alt="projectImages"
+                    alt={projects.title}
                     height="230"
                     style={{marginBottom: 0, paddingBottom: 0, position: 'relative'}}
                   />
@@ -49,7 +49,7 @@ class Projects extends Component {
 
     return (
       <section id="portfolio">
-        <div className="col-md-12">
+        <div className="col-md-12 container-xxl">
           <h1 className="section-title" style={{ color: "black" }}>
             <span>{sectionName}</span>
           </h1>

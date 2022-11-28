@@ -1,68 +1,201 @@
 {
-    "basic_info": {
-      "name": "Davina Griss",
-      "titles": [ "Front-end Developer", "Senior Data Engineer", "Dev Team lead", "Mobile App Developer" ],
-      "social": [
-        {
-          "name": "github",
-          "url": "https://github.com",
-          "class": "fab fa-github"
-        },
-        {
-          "name": "instagram",
-          "url": "https://www.instagram.com",
-          "class": "fab fa-instagram"
-        }
-      ],
-      "image": "myProfile.jpg"
+  "basic_info": {
+    "name": "Juan Cruz Leiva",
+    "titles": [
+      "Web Developer",
+      "Cloud Developer",
+      "Game Developer",
+      "Tech Enthusiast"
+    ],
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/ijuani",
+        "class": "fab fa-github"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/juanco1998",
+        "class": "fab fa-linkedin"
+      }
+    ]
+  },
+  "profile": {
+    "image": "profile.jpg",
+    "icons": [
+      {
+        "id": "material-symbols:cloud-outline",
+        "color": "#F94B4B",
+        "size": 1.2
+      },
+      {
+        "id": "mdi:web",
+        "color": "#4C8EEC",
+        "size": 1.1
+      },
+      {
+        "id": "ion:game-controller-outline",
+        "color": "#8CBF73",
+        "size": 1.2
+      }
+    ]
+  },
+  "languages": [
+    {
+      "isoCode": "en",
+      "flag": "united-kingdom"
     },
-    "skills": {
-      "icons": [
-        {
-          "name": "HTML 5",
-          "class": "devicon-html5-plain",
-          "level": "95"
-        },
-        {
-          "name": "CSS 3",
-          "class": "devicon-css3-plain",
-          "level": "95"
-        },
-        {
-          "name": "Angular",
-          "class": "devicon-angularjs-plain",
-          "level": "80"
-        },
-        {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain",
-          "level": "90"
-        },
-        {
-          "name": "JavaScript",
-          "class": "devicon-javascript-plain",
-          "level": "70"
-        },
-        {
-          "name": "Sass",
-          "class": "devicon-sass-original",
-          "level": "75"
-        },
-        {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
-          "level": "85"
-        },
-        {
-          "name": "C#",
-          "class": "devicon-csharp-plain",
-          "level": "65"
-        },
-        {
-          "name": "MySql",
-          "class": "devicon-mysql-plain",
-          "level": "60"
-        }
-      ]
+    {
+      "isoCode": "es",
+      "flag": "spain"
+    },
+    {
+      "isoCode": "fr",
+      "flag": "france"
     }
+  ],
+  "skills": {
+    "icons": [
+      {
+        "name": "Java",
+        "class": "devicon-java-plain"
+      },
+      {
+        "name": "C#",
+        "class": "devicon-csharp-plain"
+      },
+      {
+        "name": "Javascript",
+        "class": "devicon-javascript-plain"
+      },
+      {
+        "name": "Typescript",
+        "class": "devicon-typescript-plain"
+      },
+      {
+        "name": "C++",
+        "class": "devicon-cplusplus-plain"
+      },
+      {
+        "name": "Go",
+        "class": "devicon-go-original-wordmark"
+      },
+      {
+        "name": "Bash",
+        "class": "devicon-bash-plain"
+      },
+      {
+        "name": "Gradle",
+        "class": "devicon-gradle-plain"
+      },
+      {
+        "name": "GraphQL",
+        "class": "devicon-graphql-plain"
+      },
+      {
+        "name": "Vagrant",
+        "class": "devicon-vagrant-plain"
+      },
+      {
+        "name": "Julia",
+        "class": "devicon-julia-plain"
+      },
+      {
+        "name": "OpenGL",
+        "class": "devicon-opengl-plain"
+      },
+      {
+        "name": "Unity",
+        "class": "devicon-unity-original"
+      },
+      {
+        "name": "Python",
+        "class": "devicon-python-plain"
+      },
+      {
+        "name": "Postgres",
+        "class": "devicon-postgresql-plain"
+      },
+      {
+        "name": "MySQL",
+        "class": "devicon-mysql-plain"
+      },
+      {
+        "name": "Redis",
+        "class": "devicon-redis-plain"
+      },
+      {
+        "name": "Mongo",
+        "class": "devicon-mongodb-plain"
+      },
+      {
+        "name": "MSSQL",
+        "class": "devicon-microsoftsqlserver-plain"
+      },
+      {
+        "name": "Angular",
+        "class": "devicon-angularjs-plain"
+      },
+      {
+        "name": "jQuery",
+        "class": "devicon-jquery-plain"
+      },
+      {
+        "name": "React",
+        "class": "devicon-react-plain"
+      },
+      {
+        "name": "Bootstrap",
+        "class": "devicon-bootstrap-plain"
+      },
+      {
+        "name": "NodeJS",
+        "class": "devicon-nodejs-plain"
+      },
+      {
+        "name": "Spring",
+        "class": "devicon-spring-plain"
+      },
+      {
+        "name": ".Net Core",
+        "class": "devicon-dotnetcore-plain"
+      },
+      {
+        "name": "Git",
+        "class": "devicon-git-plain"
+      },
+      {
+        "name": "Docker",
+        "class": "devicon-docker-plain"
+      },
+      {
+        "name": "CircleCI",
+        "class": "devicon-circleci-plain"
+      },
+      {
+        "name": "AWS",
+        "class": "fab fa-aws"
+      },
+      {
+        "name": "GCP",
+        "class": "devicon-googlecloud-plain"
+      },
+      {
+        "name": "Kubernetes",
+        "class": "devicon-kubernetes-plain"
+      },
+      {
+        "name": "Jest",
+        "class": "devicon-jest-plain"
+      },
+      {
+        "name": "Mocha",
+        "class": "devicon-mocha-plain"
+      },
+      {
+        "name": "Sass",
+        "class": "devicon-sass-original"
+      }
+    ]
   }
+}

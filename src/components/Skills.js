@@ -26,7 +26,7 @@ class Skills extends Component {
 
     return (
       <section id="skills">
-        <div className="col-md-12">
+        <div className="col-md-12 container-xxl">
           <div className="col-md-12">
             <h1 className="section-title">
               <span className="text-white">{sectionName}</span>

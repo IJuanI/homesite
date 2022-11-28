@@ -1,13 +1,11 @@
 import React, { Component } from "react";
 import { Icon } from "@iconify/react";
-import angularIcon from "@iconify/icons-logos/angular-icon";
-import reactIcon from "@iconify/icons-logos/react";
-import vueIcon from "@iconify/icons-logos/vue";
 
 class About extends Component {
   render() {
     if (this.props.sharedBasicInfo) {
       var profilepic = "images/" + this.props.sharedBasicInfo.image;
+      var icons = this.props.sharedBasicInfo.icons;
     }
     if (this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.about;
@@ -17,7 +15,7 @@ class About extends Component {
 
     return (
       <section id="about">
-        <div className="col-md-12">
+        <div className="col-md-12 container-xxl">
           <h1 style={{ color: "black" }}>
             <span>{sectionName}</span>
           </h1>
@@ -26,22 +24,18 @@ class About extends Component {
               <div className="polaroid">
                 <span style={{ cursor: "auto" }}>
                   <img
-                    height="250px"
+                    max-height="250px"
                     src={profilepic}
                     alt="Avatar placeholder"
                   />
-                  <Icon
-                    icon={angularIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={reactIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={vueIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
+                  {icons?.map((icon, idx) =>
+                    <Icon
+                      icon={icon.id}
+                      color={icon.color}
+                      style={{ fontSize: `${400 * (icon.size || 1)}%`, margin: `${9 * (icon['margin-top'] || 1)}% 5% 0 5%` }}
+                      key={idx}
+                    />
+                  )}
                 </span>
               </div>
             </div>
@@ -77,7 +71,7 @@ class About extends Component {
                     }}
                   >
                     <br />
-                    <span className="wave">{hello} :) </span>
+                    <span className="wave">{hello}</span>
                     <br />
                     <br />
                     {about}
